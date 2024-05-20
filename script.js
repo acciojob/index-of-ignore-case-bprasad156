@@ -1,23 +1,12 @@
 function indexOfIgnoreCase(s1, s2) {
-    for(let i=0;i<s1.length();i++){
-    let  ans =s1.substring(i+1,s1)
-        for(let j=i+1;j<s1.length();j++){
-              let an=s2.substring(i,j);
-            
-             if(ans<1){
-                ans=a[i];
-             }
-             else if(an<1){
-              an=[i];
-             }
-             else{
-                 return -1;
-             }
-                
-             
+	let st=s1.length;
+    let searcht=s2.length;
+    console.log(st.indexOf(searcht)); // -1
 
-        }
-    }
+
+console.log(st.toLowerCase().indexOf(searcht.toLowerCase()));
+       
+   
 
 }
 
