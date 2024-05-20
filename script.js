@@ -1,12 +1,9 @@
 function indexOfIgnoreCase(s1, s2) {
-	let st=s1.length;
-    let searcht=s2.length;
-    console.log(st.indexOf(searcht)); // -1
+	let st = s1.toLowerCase();
+    let searcht = s2.toLowerCase();
 
-
-console.log(st.toLowerCase().indexOf(searcht.toLowerCase()));
-       
-   
+    // Return the index of the first occurrence of searcht in st
+    return st.indexOf(searcht);
 
 }
 
